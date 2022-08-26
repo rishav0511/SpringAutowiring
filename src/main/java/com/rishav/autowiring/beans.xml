@@ -9,7 +9,16 @@
 
     <context:annotation-config/>
     <!-- bean definitions here -->
-    <bean id="heartObj" class="com.rishav.autowiring.Heart"></bean>
+    <bean id="humanHeart" class="com.rishav.autowiring.Heart">
+        <property name="nameOfAnimal" value="human"/>
+        <property name="noOfHeart" value="1"/>
+    </bean>
+
+    <bean id="octopusHeart" class="com.rishav.autowiring.Heart">
+        <property name="nameOfAnimal" value="octopus"/>
+        <property name="noOfHeart" value="3"/>
+    </bean>
+
     <bean id="human" class="com.rishav.autowiring.Human"/>
 
 </beans>
