@@ -6,6 +6,6 @@
 
     <!-- bean definitions here -->
     <bean id="heartObj" class="com.rishav.autowiring.Heart"></bean>
-    <bean id="human" class="com.rishav.autowiring.Human" autowire="byType"/>
+    <bean id="human" class="com.rishav.autowiring.Human" autowire="constructor"/>
 
 </beans>
