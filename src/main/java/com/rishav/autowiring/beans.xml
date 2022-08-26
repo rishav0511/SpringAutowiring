@@ -5,7 +5,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id="heart" class="com.rishav.autowiring.Heart"></bean>
-    <bean id="human" class="com.rishav.autowiring.Human" autowire="byName"/>
+    <bean id="heartObj" class="com.rishav.autowiring.Heart"></bean>
+    <bean id="human" class="com.rishav.autowiring.Human" autowire="byType"/>
 
 </beans>
